@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff0000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnpage1"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnpage1"/>
+
+        <Button
+            android:id="@+id/btnpage2"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnpage2"/>
+
+        <Button
+            android:id="@+id/btnpage3"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnpage3"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/page1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ff00ff" >
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/page2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:background="#00ff00" >
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/btnpage2" />
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:id="@+id/page3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:background="#0000ff" >
+            <TableRow>
+                <TextView
+                    android:text="@string/field1"
+                    android:textSize="30sp"
+                    android:padding="10dip"
+                    android:background="#ffff00"/>
+                <TextView
+                    android:text="@string/field2"
+                    android:textSize="30sp"
+                    android:padding="10dip"
+                    android:background="#ffff00"/>
+                <TextView
+                    android:text="@string/field3"
+                    android:textSize="30sp"
+                    android:padding="10dip"
+                    android:background="#ffff00"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="@string/grade01"
+                    android:textSize="30sp"
+                    android:padding="10dip"
+                    android:background="#ffffff"/>
+                <TextView
+                    android:text="@string/grade02"
+                    android:textSize="30sp"
+                    android:padding="10dip"
+                    android:background="#ffffff"/>
+                <TextView
+                    android:text="@string/grade03"
+                    android:textSize="30sp"
+                    android:padding="10dip"
+                    android:background="#ffffff"/>
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+</LinearLayout>

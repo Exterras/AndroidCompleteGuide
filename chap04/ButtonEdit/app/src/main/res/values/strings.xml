@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ButtonEdit</string>
+    <string name="input_space">여기다 입력</string>
+    <string name="input_complete">입력 완료</string>
+</resources>

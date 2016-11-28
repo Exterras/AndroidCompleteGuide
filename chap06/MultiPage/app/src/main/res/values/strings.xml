@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MultiPage</string>
+
+    <string name="btnpage1">Page 1</string>
+    <string name="btnpage2">Page 2</string>
+    <string name="btnpage3">Page 3</string>
+
+    <string name="field1"> 국어 </string>
+    <string name="field2"> 영어 </string>
+    <string name="field3"> 수학 </string>
+
+    <string name="grade01"> 88 </string>
+    <string name="grade02"> 92 </string>
+    <string name="grade03"> 76 </string>
+
+</resources>
